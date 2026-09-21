@@ -12,7 +12,7 @@ function login(username, password) {
     return false;
   }
 
-  return username === 'admin' && password === '123';
+  return username === 'admin' && password === '9999';
 }
 
 module.exports = { login };
