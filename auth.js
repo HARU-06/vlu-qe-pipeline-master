@@ -1,8 +1,4 @@
-/**
- * Kiểm tra đăng nhập cho bài Ver 2.
- * Tài khoản mẫu hợp lệ là admin / 123.
- * Tài khoản có tên locked hoặc blocked được xem là bị khóa.
- */
+// Kiểm tra tài khoản bị khóa trước khi đăng nhập.
 function login(username, password) {
   if (typeof username !== 'string' || typeof password !== 'string') {
     return false;
