@@ -1,0 +1,12 @@
+{
+  "name": "software-testing-ver2",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test:smoke": "jest auth.smoke.test.js --runInBand",
+    "test:regression": "jest auth.regression.test.js --runInBand"
+  },
+  "devDependencies": {
+    "jest": "30.5.1"
+  }
+}
